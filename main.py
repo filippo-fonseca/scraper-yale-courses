@@ -4,34 +4,57 @@ from selenium.webdriver.common.by import By
 from webdriver_manager.chrome import ChromeDriverManager
 import time
 
-# Initialize browser
+# Setup driver
 driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
 
-# Define terms and subject
-terms = {
+# Define current and old terms
+current_terms = {
     "Fall 2025": "202503",
     "Spring 2026": "202601"
 }
-subject = "MENG"  # Change this to whatever subject you want
+old_terms = {
+    "Fall 2024": "202401",
+    "Spring 2025": "202403"
+}
 
-for term_name, term_code in terms.items():
+subject = "MENG"  # You can change this to any subject
+
+# Step 1: Fetch old course titles and codes (3-digit era)
+old_courses_by_title = {}
+
+for term_name, term_code in old_terms.items():
     url = f"https://courses.yale.edu/?srcdb={term_code}&subject={subject}"
     driver.get(url)
-    time.sleep(5)  # Wait for JavaScript to load
+    time.sleep(5)
 
-    print(f"\n=== {term_name} ({subject}) ===")
     results = driver.find_elements(By.CLASS_NAME, "result__headline")
-
-    if not results:
-        print("No courses found.")
-        continue
-
     for result in results:
         try:
-            code = result.find_element(By.CLASS_NAME, "result__code").text
-            title = result.find_element(By.CLASS_NAME, "result__title").text
-            print(f"{code}: {title}")
-        except Exception as e:
-            print("Skipping:", e)
+            title = result.find_element(By.CLASS_NAME, "result__title").text.strip()
+            code = result.find_element(By.CLASS_NAME, "result__code").text.strip()
+            if title not in old_courses_by_title:
+                old_courses_by_title[title] = code
+        except Exception:
+            continue
+
+# Step 2: Fetch current course titles and codes (4-digit era) and match
+for term_name, term_code in current_terms.items():
+    print(f"\n=== {term_name} ({subject}) ===")
+    url = f"https://courses.yale.edu/?srcdb={term_code}&subject={subject}"
+    driver.get(url)
+    time.sleep(5)
+
+    results = driver.find_elements(By.CLASS_NAME, "result__headline")
+    for result in results:
+        try:
+            title = result.find_element(By.CLASS_NAME, "result__title").text.strip()
+            code = result.find_element(By.CLASS_NAME, "result__code").text.strip()
+            if title in old_courses_by_title:
+                old_code = old_courses_by_title[title]
+                print(f"{code}: {title} (previously {old_code})")
+            else:
+                print(f"{code}: {title}")
+        except Exception:
+            continue
 
 driver.quit()
