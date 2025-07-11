@@ -1,0 +1,293 @@
+[
+  {
+    "codes": [
+      "MENG 1105",
+      "MENG 185"
+    ],
+    "name": "Mechanical Design",
+    "credits": 1.0,
+    "department": "MENG"
+  },
+  {
+    "codes": [
+      "MENG 2050",
+      "MENG 400"
+    ],
+    "name": "Computer-Aided Engineering",
+    "credits": 1.0,
+    "department": "MENG"
+  },
+  {
+    "codes": [
+      "MENG 2311",
+      "MENG 280"
+    ],
+    "name": "Mechanical Engineering I: Strength and Deformation of Mechanical Elements",
+    "credits": 1.0,
+    "department": "MENG"
+  },
+  {
+    "codes": [
+      "MENG 2511",
+      "MENG 211"
+    ],
+    "name": "Thermodynamics for Mechanical Engineers",
+    "credits": 1.0,
+    "department": "MENG"
+  },
+  {
+    "codes": [
+      "MENG 2615",
+      "MENG 285"
+    ],
+    "name": "Introduction to Materials Science",
+    "credits": 1.0,
+    "department": "MENG"
+  },
+  {
+    "codes": [
+      "MENG 2616L",
+      "MENG 286L"
+    ],
+    "name": "Solid Mechanics and Materials Science Laboratory",
+    "credits": 1.0,
+    "department": "MENG"
+  },
+  {
+    "codes": [
+      "MENG 3125",
+      "MENG 325"
+    ],
+    "name": "Machine Elements and Manufacturing Processes",
+    "credits": 1.0,
+    "department": "MENG"
+  },
+  {
+    "codes": [
+      "MENG 3323",
+      "MENG 383"
+    ],
+    "name": "Mechanical Engineering III: Dynamics",
+    "credits": 1.0,
+    "department": "MENG"
+  },
+  {
+    "codes": [
+      "MENG 3422",
+      "MENG 361"
+    ],
+    "name": "Mechanical Engineering II: Fluid Mechanics",
+    "credits": 1.0,
+    "department": "MENG"
+  },
+  {
+    "codes": [
+      "MENG 3465"
+    ],
+    "name": "Chemical Propulsion Systems",
+    "credits": 1.0,
+    "department": "MENG"
+  },
+  {
+    "codes": [
+      "MENG 4137L",
+      "MENG 487L"
+    ],
+    "name": "Mechanical Design: Process and Implementation I",
+    "credits": 1.0,
+    "department": "MENG"
+  },
+  {
+    "codes": [
+      "MENG 4359"
+    ],
+    "name": "Neuromuscular Biomechanics",
+    "credits": 1.0,
+    "department": "MENG"
+  },
+  {
+    "codes": [
+      "MENG 4469",
+      "MENG 469"
+    ],
+    "name": "Aerodynamics",
+    "credits": 1.0,
+    "department": "MENG"
+  },
+  {
+    "codes": [
+      "MENG 4475",
+      "MENG 475"
+    ],
+    "name": "Fluid Mechanics of Natural Phenomena",
+    "credits": 1.0,
+    "department": "MENG"
+  },
+  {
+    "codes": [
+      "MENG 4673",
+      "MENG 403"
+    ],
+    "name": "Introduction to Nanomaterials and Nanotechnology",
+    "credits": 1.0,
+    "department": "MENG"
+  },
+  {
+    "codes": [
+      "MENG 4991",
+      "MENG 472"
+    ],
+    "name": "Special Projects I",
+    "credits": 1.0,
+    "department": "MENG"
+  },
+  {
+    "codes": [
+      "MENG 4992",
+      "MENG 474"
+    ],
+    "name": "Special Projects II",
+    "credits": 1.0,
+    "department": "MENG"
+  },
+  {
+    "codes": [
+      "MENG 6278"
+    ],
+    "name": "Advanced Robotic Mechanisms",
+    "credits": 1.0,
+    "department": "MENG"
+  },
+  {
+    "codes": [
+      "MENG 9900",
+      "MENG 990"
+    ],
+    "name": "Special Investigations",
+    "credits": 1.0,
+    "department": "MENG"
+  },
+  {
+    "codes": [
+      "MENG 4138L",
+      "MENG 488L"
+    ],
+    "name": "Mechanical Design: Process and Implementation II",
+    "credits": 0.5,
+    "department": "MENG"
+  },
+  {
+    "codes": [
+      "MENG 2147",
+      "MENG 287"
+    ],
+    "name": "Intermediate Mechanical Design",
+    "credits": 1.0,
+    "department": "MENG"
+  },
+  {
+    "codes": [
+      "MENG 3020L",
+      "MENG 390L"
+    ],
+    "name": "Mechatronics Laboratory",
+    "credits": 1.0,
+    "department": "MENG"
+  },
+  {
+    "codes": [
+      "MENG 3423L",
+      "MENG 363L"
+    ],
+    "name": "Fluid Mechanics and Thermodynamics Laboratory",
+    "credits": 1.0,
+    "department": "MENG"
+  },
+  {
+    "codes": [
+      "MENG 3424",
+      "MENG 389"
+    ],
+    "name": "Mechanical Engineering IV: Fluid and Thermal Energy Science",
+    "credits": 1.0,
+    "department": "MENG"
+  },
+  {
+    "codes": [
+      "MENG 3675",
+      "MENG 385"
+    ],
+    "name": "Thermodynamics, Kinetics, and Structure of Materials",
+    "credits": 1.0,
+    "department": "MENG"
+  },
+  {
+    "codes": [
+      "MENG 4041"
+    ],
+    "name": "Applied Numerical Methods for Differential Equations",
+    "credits": 1.0,
+    "department": "MENG"
+  },
+  {
+    "codes": [
+      "MENG 4145",
+      "MENG 425"
+    ],
+    "name": "Advanced Design and Analysis of Machines",
+    "credits": 1.0,
+    "department": "MENG"
+  },
+  {
+    "codes": [
+      "MENG 4154",
+      "MENG 404"
+    ],
+    "name": "Medical Device Design and Innovation",
+    "credits": 1.0,
+    "department": "MENG"
+  },
+  {
+    "codes": [
+      "MENG 4273",
+      "MENG 493"
+    ],
+    "name": "Introduction to Soft Robotics",
+    "credits": 1.0,
+    "department": "MENG"
+  },
+  {
+    "codes": [
+      "MENG 4370"
+    ],
+    "name": "Computational Mechanics",
+    "credits": 1.0,
+    "department": "MENG"
+  },
+  {
+    "codes": [
+      "MENG 4664",
+      "MENG 464"
+    ],
+    "name": "Forces on the Nanoscale",
+    "credits": 1.0,
+    "department": "MENG"
+  },
+  {
+    "codes": [
+      "MENG 4672",
+      "MENG 492"
+    ],
+    "name": "Electronic and Optical Properties of Energy Materials",
+    "credits": 1.0,
+    "department": "MENG"
+  },
+  {
+    "codes": [
+      "MENG 4774"
+    ],
+    "name": "Topics in Computational and Systems Biology",
+    "credits": 1.0,
+    "department": "MENG"
+  }
+]
